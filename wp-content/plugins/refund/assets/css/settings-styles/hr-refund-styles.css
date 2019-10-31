@@ -1,0 +1,35 @@
+/*         Refund menu icon        */
+
+.hr_refund_settings:before{
+    background:url(../../images/handshake-16.png) no-repeat left 35px center !important;
+}
+
+.hr_refund_request:before{
+    background:url(../../images/refund_request_16.png) no-repeat left 50px center !important;
+}
+.hrrefundgeneral:before{
+    background:url(../../images/settings-11-16.png) no-repeat left 50px center !important;
+}
+.hrrefundemail:before{
+    background:url(../../images/email-5-16.png) no-repeat left 50px center !important;
+}
+.hrrefundlocalization:before{
+    background:url(../../images/edit-11-16.png) no-repeat left 50px center !important;
+}
+.hrrefundshortocode:before{
+    background:url(../../images/code-optimization-16.png) no-repeat left 50px center !important;
+}
+.hrcompatibility:before{
+    background:url(../../images/plug-16.png) no-repeat left 50px center !important;
+}
+
+.hr_refund_image{
+    background:#eee url(../../images/handshake-40.png) no-repeat center center; 
+}
+
+.hr_activation_error{
+    clear: both;
+    width:100%;
+    display:block;
+    color:red;
+}

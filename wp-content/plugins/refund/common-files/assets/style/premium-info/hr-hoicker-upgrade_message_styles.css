@@ -1,0 +1,240 @@
+
+/*     Hoicker global Upgrade message design     */
+
+.hr_update_wrapper{
+    border-radius:10px;
+    background: linear-gradient(to bottom right, #ff9400 0%, #ff5f00 100%);
+    float:left;
+    margin-left:3%;
+    display: block;
+    width:95%;
+    min-height:100px;
+    margin-bottom:20px;
+}
+.hr_update_container{
+    float:left;
+    display: block;
+    width:100%;
+    min-height:50px;
+   
+}
+.hr_update_content{
+    float:left;
+    display: block;
+    width:68%;
+    margin-left:2%;
+}
+.hr_update_content h3{
+    color:#fff;
+    font-size:18px;
+    font-weight:normal;
+    line-height:1.2em;
+    font-weight:bold;
+}
+.hr_update_content h3 img{
+    float:left;
+}
+.hr_update_button{
+    width:30%;
+    float:left;
+    display: block;
+    text-align:left;
+}
+.hr_update_button a{
+    width:215px;
+    text-decoration:none;
+    display:block;
+    background:#2b4280 url('../../images/admin-layoutright-circular-16.png') no-repeat right 7px center;
+    padding:10px;
+    border-radius:7px;
+    font-weight:bold;
+    font-size:14px;
+    box-shadow: inset 0 0 3px #fff;
+    color:#fff;
+    float:right;
+    margin:17px 17px 0px 0px;
+}
+.hr_update_button a:hover{
+    box-shadow: 0 0 3px #fff;
+}
+.hr_update_features_container{
+    float:left;
+    display: block;
+    width:100%;
+}
+.hr_update_features_column{
+    float:left;
+    display: block;
+    width:20%;
+    text-align:center;
+    margin:20px;
+}
+.hr_update_features_column h3{
+    color:#fff;
+    font-size:15px;
+}
+
+/*     Hoicker inside tab Upgrade message design     */
+
+.hr_update_inner_wrapper{
+    border-radius:10px;
+    box-shadow:0 1px 1px 0 rgba(0,0,0,.1);
+    background: linear-gradient(to bottom right, #ff9400 0%, #ff5f00 100%);
+    float:left;
+    margin-left:3%;
+    display: block;
+    width:94%;
+    min-height:100px;
+    margin-bottom:30px;
+    margin-top:20px;
+}
+.hr_update_inner_container{
+    float:left;
+    display: block;
+    width:100%;
+    min-height:50px; 
+}
+.hr_update_inner_content{
+    float:left;
+    display: block;
+    width:68%;
+    margin-left:2%;
+}
+.hr_update_inner_content h3{
+    color:#fff;
+    font-size:18px;
+    font-weight:normal;
+    line-height:1.2em;
+}
+.hr_update_inner_content h3 img{
+    float:left;
+}
+.hr_update_inner_button{
+    width:30%;
+    float:left;
+    display: block;
+    text-align:left;
+}
+.hr_update_inner_button a{
+    text-decoration:none;
+    margin:10px 10px 0px 0px;
+    display:block;
+    padding:10px;
+    border-radius:4px;
+    font-weight:bold;
+    font-size:13px;
+    color:#fff;
+    float:right;
+    width:197px;
+    background:#2b4280 url('../../images/right-circular-16.png') no-repeat right 7px center;
+/*    box-shadow: 0 3px 0 #a20359;*/
+    box-shadow:inset 0 0 2px #fff;
+}
+.hr_update_inner_button a:hover{
+    box-shadow: 0 0 3px #fff;
+}
+.hr_update_inner_features_container{
+    float:left;
+    display: block;
+    width:100%;
+}
+.hr_update_inner_features_column{
+    float:left;
+    display: block;
+    width:32%;
+}
+.hr_update_inner_features_column ul{
+    margin-left:20px;
+}
+.hr_update_inner_features_column ul li{
+    background:url('../../images/admin-layout/check-mark-3-12.png') no-repeat left top 1px;
+    padding-left:20px;
+    font-size:15px;
+    color:#fff;
+    margin-bottom: 15px;
+}
+.hr_premium_message{
+    padding:10px;
+    border-radius:10px;
+    background: linear-gradient(to bottom right, #ff9400 0%, #ff5f00 100%);
+    margin-top:10px;
+    width:330px;
+    position:relative;
+}
+.hr_premium_message p{
+    color:#fff;
+    font-size:14px !important;
+}
+.hr_premium_message p a{
+   color:#fff;
+   font-weight:bold;
+}
+
+/*     Compatiblity premium message design      */
+
+.compatiblity_pro_msg{
+    border-radius:10px;
+    margin-top:10px;
+    clear: both;
+    width:100%;
+    background: linear-gradient(to bottom right, #ff9400 0%, #ff5f00 100%);
+}
+.compatiblity_pro_msg p{
+    color:#fff;
+    font-size:14px;
+    padding:10px 10px;
+}
+.compatiblity_pro_msg p a{
+    color:#fff;
+    font-size:14px;
+    font-weight:bold;
+}
+/*     Compatiblity premium message design  end   */
+
+/*     Hoicker global Upgrade message design end    */
+
+/* inner section Premium message display design start */
+
+.hr_section .form-table td{
+    display:inline-block !important;
+    position: relative !important;
+}
+.hr_section .form-table td input:disabled{
+    background: #eee !important;
+}
+.hr_section .form-table td textarea:disabled{
+    background: #eee !important;
+}
+.hr_section .form-table td select:disabled{
+    background: #eee !important;
+}
+
+.hrst_form_layout .form-field div.hr_trigger_td{
+    display:inline-block !important;
+    position: relative !important;
+}
+.hrst_form_layout .form-field div.hr_trigger_td input:disabled{
+    background: #eee !important;
+}
+.hrst_form_layout .form-field div.hr_trigger_td textarea:disabled{
+    background: #eee !important;
+}
+.hrst_form_layout .form-field div.hr_trigger_td select:disabled{
+    background: #eee !important;
+}
+
+/* Premium message display design end */
+
+/*Premium Hide Input Start*/
+
+.hidden-input{
+    position: absolute !important; 
+    left: 0px !important; 
+    right: 0px !important; 
+    top: 0px !important; 
+    bottom: 0px !important; 
+    background-color: white !important; 
+    opacity:0 !important;
+}
+
+/*Premium Hide Input End*/

@@ -1,0 +1,46 @@
+.hr_refund_reply_button{
+    margin-top:10px !important;
+    float:right;
+}
+@media only screen and (max-width: 768px){
+    table.hr_refund_frontend_table thead{
+        display: none;
+    }
+    table.hr_refund_frontend_table tr {
+        display: block;
+    }
+    table.hr_refund_frontend_table tfoot th{
+        display:none;
+    }
+    table.hr_refund_frontend_table tr td {
+        display: block;
+        text-align: right !important;
+    }
+    table.hr_refund_frontend_table tr td::before {
+        content: attr(data-title) ": ";
+        font-weight: 700;
+        float: left;
+    }
+     table.hr_refund_frontend_table tr td.actions::before {
+        content:'';
+    }
+    table.hr_refund_request_form_table tbody th, table.hr_refund_request_form_table tbody td  {
+        display:block;
+        position: relative;
+        border:0 !important ;
+    }
+    table.hr_refund_request_form_table tbody td{
+        border:0 !important ;
+        width:100%;        
+    }
+    table.hr_refund_request_form_table tbody td input {
+        width:100%; 
+    }
+    table.hr_refund_request_form_table tbody td input[type='submit'] {
+        width:auto; 
+    }
+    table.hr_refund_request_form_table tbody td select {
+        width:100%; 
+    }
+
+}

@@ -1,0 +1,15 @@
+
+.hr_go_to_settings_btn{
+    background:#f55b11;
+    border:none;
+    color:#fff;
+    text-decoration: none;
+    padding:7px 15px;
+    font-size:14px;
+    border-radius:10px;
+}
+.hr_go_to_settings_btn:hover{
+    color:#fff;
+    font-weight:bold;
+    box-shadow:0 0 2px #000;
+}

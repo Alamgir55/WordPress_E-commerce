@@ -1,0 +1,21 @@
+<wpml-config>
+    <admin-texts>
+        <key name="hr_refund_full_order_button_label" />
+        <key name="hr_refund_table_request_id_label"/>
+        <key name="hr_refund_table_orderid_label"/>
+        <key name="hr_refund_table_status_label"/>
+	<key name="hr_refund_table_type_label" />
+        <key name="hr_refund_table_request_as_label"/>
+        <key name="hr_refund_table_user_total_label" />
+        <key name="hr_refund_table_date_label"/>
+        <key name="hr_refund_table_view_label"/>
+        <key name="hr_refund_form_general_reason_label"/>
+        <key name="hr_refund_form_request_as_label"/>
+        <key name="hr_refund_form_details_label"/>
+        <key name="hr_refund_form_submit_button_label"/>
+        <key name="hr_refund_request_customize_unsub_heading"/>
+        <key name="hr_refund_request_customize_unsub_text"/>
+     </admin-texts>
+</wpml-config>
+
+

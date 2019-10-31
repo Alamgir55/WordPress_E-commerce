@@ -1,0 +1,605 @@
+#wpcontent{
+    padding-left:0px !important;
+}
+.hr_wrapper{
+    width:100%;
+    margin:0px !important;
+    float:left;
+}
+.hr_header{
+    border-top:2px solid #e1e1e1;
+    border-bottom:0px solid #b0adad;
+    border-left:2px solid #e1e1e1;
+    border-right:2px solid #e1e1e1;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    background:#fff;
+    float:left;
+    margin-left:3%;
+    display: block;
+    width:95%; 
+    text-align:center;
+}
+.hr_header a{
+    padding: 25px;
+    display:block;
+    box-shadow: none !important;
+    text-decoration: none;
+    width:200px;
+    margin:0 auto;
+}
+.hr_wrapper .hr_tab{
+    width:23%;
+    float:left;
+    background:#e1e1e1;
+    border-top-left-radius:0px;
+    padding-top:0px;
+    border-bottom:none !important;
+}
+.hr_main{
+    background:#e1e1e1;
+    border:2px solid #e1e1e1;
+    float:left;
+    width:95%;
+    margin-left:3%;
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+.hr_content{
+    border-left:0px solid #ccc;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 10px;
+    float:left;
+    width:77%;
+    min-height:800px;
+    background:#fff;
+}
+.hr_inner_content{
+    width:95%;
+    margin:0 auto;
+}
+.hr_tab ul{
+    float:left;
+    width:100%;
+    margin-top:0px;
+}
+.hr_tab ul li{
+    display:block;
+    margin-bottom:0px;
+    text-align:center;
+    border-bottom:none !important;
+}
+.hr_tab ul li a{
+    background:#e1e1e1;
+    border:none !important;
+    border-radius:0px;
+    text-align:left;
+    float:none !important;
+    border:none !important;
+    box-shadow: none !important;
+    color:#000 !important;
+    display:block;
+    width:100% !important;
+    padding-top:10px !important;
+    padding-bottom:10px;
+    padding-left:0px !important;
+    padding-right:0px !important;
+    margin-left:0px !important;
+}
+.hr_tab ul li a:hover{
+    background:#fff;
+    color:#f55b11 !important;
+}
+.hr_tab ul li a:before{
+    content:"";
+    padding-left:50px;
+}
+.hr_tab ul li .nav-tab-active{
+    background:#fff !important;
+    border-radius: 0px !important;
+    border-left: 2px solid #f55b11 !important;
+    border-right: 2px solid #fff !important;
+    margin-left:-2px !important;
+    margin-right:-2px !important;
+    position:relative;
+    color:#f55b11 !important;
+    box-shadow: none !important;
+}
+.hr_tab ul li .nav-tab-active:before{
+    content:"";
+    padding-left:50px !important;
+    padding-right:0px !important;
+}
+
+/*     Hoicker first nested tab css      */
+
+.hr_tab .hr_first_nested_tab_li .hr_first_nested_inner_tab_a:before{
+    content:'';
+    padding-left:70px !important;
+}
+.hr_tab .hr_first_nested_tab_li .nav-tab-active:before{
+    content:"";
+    padding-left:70px !important;
+    padding-right:0px !important;
+}
+.hr_li_tag_hr-hoicker-global-modules .hr_first_nested_inner_tab_a:before{
+    content:'';
+    padding-left:70px !important;
+}
+
+/*     Hoicker second nested tab css      */
+
+.hr_tab .hr_second_nested_inner_tab_a:before{
+    content:'';
+    padding-left:85px !important;
+}
+.hr_tab .hr_second_nested_tab_li .nav-tab-active:before{
+    content:"";
+    padding-left:85px !important;
+    padding-right:0px !important;
+}
+
+
+
+/*          section design start        */
+
+.hr_section{
+    background: #fff none repeat scroll 0 0;
+    border: 2px solid #e1e1e1;
+    border-radius: 5px;
+    margin-bottom:15px;
+    margin-top:15px;
+    width: 100%;
+    box-shadow: 0 0 1px #ccc;
+    float:left;
+}
+
+.hr_section h2{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border: 0px;
+    color: #000;
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin: 0;
+    padding: 10px 0 10px 15px;
+    cursor: pointer;
+}
+.hr_section_open{
+    background:#f2f2f2 url(../../images/admin-layout/up-arrow-12.png) no-repeat right 15px center;
+}
+.hr_section_close{
+    background:#f2f2f2 url(../../images/admin-layout/down-arrow-12.png) no-repeat right 15px center;
+}
+.hr_section .form-table{
+    margin-left:10px !important;
+}
+.hr_section .form-table th label{
+    cursor: auto !important;
+}
+.hr_section textarea{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 -5px 10px 2px rgba(0, 0, 0, 0.03) inset;
+    min-height: 100px !important;
+    min-width: 350px !important;
+    width:350px !important;
+}
+.hr_section input[type='text']{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 -5px 10px 2px rgba(0, 0, 0, 0.03) inset;
+    min-height: 30px !important;
+    min-width: 350px !important;
+    width:350px !important;
+}
+.hr_section select{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 -5px 10px 2px rgba(0, 0, 0, 0.03) inset;
+    min-height: 30px !important;
+    min-width: 350px !important;
+    width:350px !important;
+}
+.hr_section input[type='number']{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 -5px 10px 2px rgba(0, 0, 0, 0.03) inset;
+    min-height: 30px !important;
+    min-width: 350px !important;
+    width:350px !important;
+}
+.hr_section .hr_date_picker input[type="text"]{
+    min-width: 310px !important;
+    width:310px !important;
+    margin-bottom:10px !important;
+}
+.hr_section .hr_date_picker label{
+    width:40px;
+    margin-bottom:10px;
+    display:inline-block;
+    float:left;
+}
+
+.hr_mpb_shortcode p{
+    font-size:14px;
+    margin-left:15px;
+}
+.hr_content .hr_section table.form-table .select2-container{
+    min-width: 350px !important;
+   
+}
+.hr_wallet_usage_restriction_to:before{
+    content:attr(class);
+    color:#f00 !important;
+}
+.wp-core-ui .hr_button{
+    background:#483d8b !important;
+    color:#fff !important;
+    border-radius: 10px !important;
+    border:none !important;
+    box-shadow: none !important;
+    text-shadow:none !important;
+    padding:5px 7px;
+    cursor: pointer;
+    line-height:1.4em;
+}
+.wp-core-ui .hr_button.focus{
+    background:#483d8b !important;
+    color:#fff !important;
+}
+.wp-core-ui .hr_button:active{
+    background:#483d8b !important;
+    color:#fff !important;
+}
+.wp-core-ui .hr_button.hover{
+    background:#483d8b !important;
+    color:#fff !important;
+}
+.hr_section .form-table td .hr_button:disabled{
+    background:#483d8b !important;
+    color:#fff !important;
+    opacity: 0.7;
+}
+.wp-core-ui .hr_button:focus{
+    background:#483d8b !important;
+    color:#fff !important;
+}
+.hr_button:hover{
+    background:#483d8b !important;
+    color:#fff !important;
+    box-shadow:0 0 3px #000 !important;
+}
+
+
+/*          section design end        */
+
+.hr_go_to_settings_btn{
+    background:#f55b11;
+    border:none;
+    color:#fff;
+    text-decoration: none;
+    padding:5px 10px;
+    font-size:14px;
+}
+
+/*          save success message design start   */
+
+.hr-save{
+    padding-top:10px ;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:10px;
+    background:#fff url(../../images/admin-layout/circle-outline-24.png) no-repeat left 5px center;
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom:10px;
+    margin-top:10px;
+    float:left;
+    width:96%;
+}
+.hr-save p img{
+    float: right !important;
+    cursor: pointer !important;
+    margin-top:5px;
+} 
+.hr-save p{
+    margin:0px !important;
+    padding-left:20px;
+    color:#46b450 !important;
+    font-weight:normal;
+}
+.hr-reset{
+    background:#fff url(../../images/admin-layout/circle-outline-24.png) no-repeat left 5px center;
+    padding-top:10px ;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:10px;
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom:10px;
+    margin-top:10px;
+    float:left;
+    width:96%;
+}
+.hr-reset p img{
+    float: right !important;
+    cursor: pointer !important;
+    margin-top:5px;
+} 
+.hr-reset p{
+    margin:0px !important;
+    padding-left:20px;
+    color:#46b450 !important;
+    font-weight:normal;
+}
+.hr_save{
+    background:#f55b11 !important;
+    border:none !important;
+    border-radius:10px !important;
+    padding:5px 20px !important;
+    height:28px !important;
+    line-height:1.2em !important;
+    text-shadow:none !important;
+    box-shadow: none !important;
+    color:#fff !important;
+
+}
+.hr_save:hover{
+    box-shadow:0 0 2px #000 !important;
+    font-weight:bold !important;
+}
+.hr_reset{
+    background:#fff !important;
+    border:1px solid #f55b11 !important;
+    border-radius:10px !important;
+    padding:5px 20px !important;
+    height:28px !important;
+    line-height:1.2em !important;
+    text-shadow:none !important;
+    box-shadow: none !important;
+    color:#000 !important;
+}
+.hr_reset:hover{
+    background:#f55b11 !important;
+    box-shadow:0 0 2px  #000 !important;
+    font-weight:bold !important;
+    color:#fff !important;
+}
+
+/*     Hoicker compatible plugis design start     */
+.hr_compatiblity_wrapper{
+    float:left;
+}
+.hr_compatiblity_wrapper h3{
+    font-size:1.3em;
+    font-weight:600;
+    padding-top:10px;
+    display:block;
+    margin-left:10px;
+}
+.hr_compatiblity_wrapper h3 small{
+    color:#f55b11;
+}
+.hr_compatible{
+    float:left;
+    width:240px;
+    height:167px;
+    margin: 10px;
+    display:block;
+    background:#fff;
+    box-shadow: 0 0 8px 0 #aaa;
+}
+.hr_compatible a{
+    box-shadow:none !important;
+}
+.hr_compatible_img{
+    float:left;
+    width:100%;
+    height:122px;
+}
+.hr_compatible_img img{
+    width:240px;
+    height:122px;
+}
+.hr_compatible_bottom{
+    float:left;
+    width:100%;
+}
+.hr_compatible_title{
+    float:left;
+    width:160px;
+}
+.hr_compatible_title p{
+    font-weight:bold;
+    margin-top:13px;
+    margin-bottom:5px;
+    margin-left:5px;
+    font-size:13px;
+}
+.hr_compatible_buynow{
+    width:75px;
+    height:45px;
+    float:right;
+    text-align:center;
+}
+.hr_compatible_buynow a{
+    color:#fff;
+    width:60px;
+    background:#483d8b;
+    border-radius:5px;
+    padding:3px;
+    text-decoration:none;
+    margin:10px auto;
+    box-shadow: none !important;
+    display:block;
+}
+.hr_compatible_buynow a:focus{
+    box-shadow: none !important;
+}
+
+/*     Hoicker compatible plugis design end     */
+
+.hr_support p{
+    font-size:14px;
+    box-shadow: none !important;
+}
+.hr_support p a{
+    font-style:italic;
+    box-shadow: none !important;
+}
+
+/* License information CSS  */
+
+.hr_license_wrapper{
+    width:95%;
+    padding:20px;
+    margin:20px auto;
+    border:2px solid #e1e1e1;
+    background:#fcfcfc;
+    border-radius:5px;    
+}
+.hr_license_information h2{
+    margin-top:0px;
+}
+.hr_license_label label{
+    font-size:14px; 
+    padding:10px 10px 10px 0px;
+    display:block;
+}
+.hr_license_activation h4{
+    clear: both;
+    display: block;
+    width:100%;
+    padding-top:20px;
+    text-decoration: none;
+}
+.hr_license_activation li{
+    list-style:decimal;
+    margin-left:15px;
+}
+.hr_license_activation li a{
+    text-decoration: none;
+}
+.hr_license_activation input[type="text"]{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background:url(../../images/admin-layout/key.png) no-repeat left center;
+    box-shadow: 0 -5px 10px 2px rgba(0, 0, 0, 0.03) inset;
+    min-height: 30px !important;
+    width: 350px !important;
+    height:30px !important;
+    padding:0px 0px 0px 35px !important;
+    display:block;
+    float:left;
+}
+.hr_license_activation input[type="text"]::-webkit-input-placeholder{
+    font-style: italic;
+    font-size: 12px;
+}
+.hr_license_activation input[type="text"]:-moz-placeholder {
+   font-style: italic;  
+   font-size: 12px;
+}
+.hr_license_activation input[type="text"]::-moz-placeholder {
+   font-style: italic;
+   font-size: 12px;
+}
+.hr_license_activation input[type="text"]:-ms-input-placeholder {  
+   font-style: italic;
+   font-size: 12px;
+}
+.hr_license_activation input[type="submit"]{
+    float:left;
+    margin-left:10px;
+}
+.hr_activation_error{
+    clear: both;
+    width:100%;
+    display:block;
+    color:red;
+}
+.hr_license_button{
+    background: #483d8b !important;
+    color: #fff !important;
+    border-radius: 5px !important;
+    border: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    padding: 5px 13px;
+    cursor: pointer;
+    line-height: 1.4em;
+}
+.hr-hoicker-global-support:before{
+    background:url(../../images/admin-layout/online-support-16.png) no-repeat left 50px center !important;
+}
+.hr-hoicker-global-license:before{
+    background:url(../../images/admin-layout/padlock-10-16.png) no-repeat left 50px center !important;
+}
+
+@media screen and (max-width: 1023px) {
+    .hr_wrapper .hr_tab{
+        width:100%;
+        float:left;
+        background:#e1e1e1;
+        padding-top:0px;
+        border-bottom:none !important;
+    }
+    .hr_content{
+        border-left:0px solid #ccc;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        float:left;
+        width:100%;
+        min-height:350px;
+        background:#fff;
+    }
+    .hr_tab ul li .nav-tab-active{
+        background:#fff !important;
+        border-radius: 0px !important;
+        border-left: 2px solid #f55b11 !important;
+        border-right: 0px solid #fff !important;
+        margin-left:-2px !important;
+        margin-right:0px !important;
+        position:relative;
+        color:#f55b11 !important;
+    }
+}
+@media screen and (max-width: 782px){
+    .hr_section textarea{
+        width: 90% !important;
+    }
+    .hr_section input[type='text']{
+        width: 90% !important;
+    }
+    .hr_section select{
+        width: 90% !important;
+    }
+    .hr_section input[type='number']{
+        width: 90% !important;
+    }
+    .hr_content .hr_section table.form-table .select2-container{
+        width: 90% !important;
+    }
+
+}
+@media screen and (max-width: 480px){
+    .hr_section textarea{
+        min-width: 300px !important;
+    }
+    .hr_section input[type='text']{
+        min-width: 300px !important;
+    }
+    .hr_section select{
+        min-width: 300px !important;
+    }
+    .hr_section input[type='number']{
+       min-width: 300px !important;
+    }
+    .hr_content .hr_section table.form-table .select2-container{
+        min-width: 300px !important;
+    }
+
+}
